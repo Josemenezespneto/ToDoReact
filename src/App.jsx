@@ -49,13 +49,13 @@ function App() {
       id: 1,
       title: "Tarefa 1",
       description: "Descrição da tarefa 1",
-      completed: false,
+      isCompleted: false,
     },
     {
       id: 2,
       title: "Tarefa 2",
       description: "Descrição da tarefa 2",
-      completed: false,}
+      isCompleted: false,}
    ]);
   };
 
