@@ -4,11 +4,16 @@ import './index.css'
 import App from './App.jsx'
 import "tailwindcss/tailwind.css"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import TaskPage from './pages/TaskPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/task",
+    element: <TaskPage />
   }
 ]);
 
